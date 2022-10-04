@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  // Este templateUrl indica el archivo sobre el cual se desea trabajar
+  templateUrl: 'app.component.html',
 })
-export class AppComponent {
-  title = 'bases';
-}
+export class AppComponent {}
